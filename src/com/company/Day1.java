@@ -18,7 +18,7 @@ class Day1 {
         hm.put("eight", 8);
         hm.put("nine", 9);
 
-        File file = new File("C:\\Users\\kanna\\AppData\\Roaming\\JetBrains\\IdeaIC2021.2\\scratches\\input.txt");
+        File file = new File("C:\\Users\\kanna\\Desktop\\GitHub\\advent-of-code\\src\\com\\company\\input\\Day1.txt");
         Scanner text = new Scanner(file);
         int tot=0;
         while (text.hasNextLine()) {
